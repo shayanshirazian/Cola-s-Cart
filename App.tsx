@@ -28,9 +28,7 @@ function App() {
     const [data, setData] = useState<DataType>(initialData);
 
     useEffect(() => {
-        // This effect runs once after the initial render
-        // You can update the state here if needed
-    }, []);
+       }, []);
 
     return (
         <div className="Cart">
