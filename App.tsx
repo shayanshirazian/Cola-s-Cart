@@ -28,7 +28,8 @@ function App() {
     const [data, setData] = useState<DataType>(initialData);
 
     useEffect(() => {
-       }, []);
+    }, []);
+
 
     return (
         <div className="Cart">
