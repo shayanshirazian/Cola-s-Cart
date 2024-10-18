@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px;
+  padding: 100px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.Cart {
+  width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.Top {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.TopLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.TopLeftTop {
+  display: flex;
+  align-items: baseline;
+}
+
+.Date {
+  color: #830202;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-right: 10px;
+}
+
+.EditBtn {
+  color: #ff9100c5;
+  cursor: pointer;
+  display: flex;
+  font-weight: lighter;
+}
+
+.EditBtnPen {
+  width: 20px;
+  height: auto;
+}
+
+.TopLeftBottom {
+  display: flex;
+  align-items: center;
+}
+
+.AddressDetails {
+  font-size: 0.7em;
+  font-weight: lighter;
+  color: #6d0101;
+}
+
+.AddressIcon img {
+  width: 10px;
+  height: auto;
+}
+
+.TopRight {
+  display: flex;
+  align-items: baseline;
+}
+
+.StatusCircle {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(65, 105, 225, 0.79);
+  border: 1px solid #830202;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.StatusText {
+  color: rgb(90, 0, 0);
+  margin-left: 2px;
+}
+
+.Middle .Line {
+  display: flex;
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  margin: 10px 0;
+}
+
+.order-container {
+  font-size: 0.8em;
+  color: #57000082;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+
+.Cola .Details,
+.Ible .Details,
+.Khanoomi .Details {
+  color: rgb(95, 0, 0);
+}
+
