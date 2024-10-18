@@ -15,7 +15,7 @@ interface DataType {
 
 const initialData: DataType = {
     Date: "12/09/2024",
-    Status: "Preparation",
+    Status: "Delivered",
     Address: "28 Avondale Ave. Unit 1202, M2N 0K2.",
     dogsOrders: [
         { name: "Cola", Orders: "12x Beef, 10x Chicken, 8x Salmon" },
